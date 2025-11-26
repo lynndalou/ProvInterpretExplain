@@ -1,0 +1,334 @@
+digraph G {
+rankdir=RL;
+charset="utf-8";
+n1 [label="root", URL="linear regression_GR0_6root", shape=house, style=filled, fillcolor="#FED37F"];
+n2 [label="context:linear regression_GR0_6", URL="contextlinear regression_GR0_6", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann1 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="linear regression_GR0_6dropna_testing_data_cleanup">dropna_testing_data_cleanup</TD>
+        <TD align="left">      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    ...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6dropna_training_data_cleanup">dropna_training_data_cleanup</TD>
+        <TD align="left">        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.58...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6execution_end_time">execution_end_time</TD>
+        <TD align="left">1760478905.3483284</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6execution_start_time">execution_start_time</TD>
+        <TD align="left">1760478900.888195</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6expand_dims_testing_data">expand_dims_testing_data</TD>
+        <TD align="left">[[ 9.32668894e-01]
+ [-1.00278099e+00]
+ [-9.68219386e-01]
+ [-1.03734260e+00]
+ [-4.84356915e-01]
+ [-1....</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6expand_dims_training_data">expand_dims_training_data</TD>
+        <TD align="left">[[-8.99096176e-01]
+ [-4.94443564e-04]
+ [-1.21015062e+00]
+ [-4.15233705e-01]
+ [ 1.27828495e+00]
+ [-4....</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6standardize_testing_data">standardize_testing_data</TD>
+        <TD align="left">[ 9.32668894e-01 -1.00278099e+00 -9.68219386e-01 -1.03734260e+00
+ -4.84356915e-01 -1.21015062e+00  4...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="linear regression_GR0_6standardize_training_data">standardize_training_data</TD>
+        <TD align="left">[-8.99096176e-01 -4.94443564e-04 -1.21015062e+00 -4.15233705e-01
+  1.27828495e+00 -4.84356915e-01 -1...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLartifact_uri">yProv4ML:artifact_uri</TD>
+        <TD align="left">/content/drive/MyDrive/2025-2026/Conferences/CAIN/linear regression_6/artifacts_GR0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLexperiment_dir">yProv4ML:experiment_dir</TD>
+        <TD align="left">/content/drive/MyDrive/2025-2026/Conferences/CAIN/linear regression_6</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLexperiment_name">yProv4ML:experiment_name</TD>
+        <TD align="left">linear regression_GR0_6</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLglobal_rank">yProv4ML:global_rank</TD>
+        <TD align="left">0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">0</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLprovenance_path">yProv4ML:provenance_path</TD>
+        <TD align="left">/content/drive/MyDrive/2025-2026/Conferences/CAIN/</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLpython_version">yProv4ML:python_version</TD>
+        <TD align="left">3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLrun_id">yProv4ML:run_id</TD>
+        <TD align="left">6</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann1 -> n2 [arrowhead=none, style=dashed, color=gray];
+n3 [label="context:Context.TRAINING", URL="contextContext.TRAINING", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann2 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann2 -> n3 [arrowhead=none, style=dashed, color=gray];
+n4 [label="context:Context.VALIDATION", URL="contextContext.VALIDATION", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann3 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann3 -> n4 [arrowhead=none, style=dashed, color=gray];
+n5 [label="context:Context.TESTING", URL="contextContext.TESTING", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann4 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann4 -> n5 [arrowhead=none, style=dashed, color=gray];
+n6 [label="context:Context.DATASETS", URL="contextContext.DATASETS", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann5 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann5 -> n6 [arrowhead=none, style=dashed, color=gray];
+n7 [label="context:Context.MODELS", URL="contextContext.MODELS", shape=box, style=filled, fillcolor="#9FB1FC", color="#0000FF"];
+ann6 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlevel">yProv4ML:level</TD>
+        <TD align="left">1</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann6 -> n7 [arrowhead=none, style=dashed, color=gray];
+n8 [label="        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.586398
+4    87.0  87.288984
+..    ...        ...
+695  58.0  58.595006
+696  93.0  94.625094
+697  82.0  88.603770
+698  66.0  63.648685
+699  97.0  94.975266
+
+[700 rows x 2 columns]", URL="linear regression_GR0_6        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.586398
+4    87.0  87.288984
+..    ...        ...
+695  58.0  58.595006
+696  93.0  94.625094
+697  82.0  88.603770
+698  66.0  63.648685
+699  97.0  94.975266
+
+[700 rows x 2 columns]", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann7 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="linear regression_GR0_6        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.586398
+4    87.0  87.288984
+..    ...        ...
+695  58.0  58.595006
+696  93.0  94.625094
+697  82.0  88.603770
+698  66.0  63.648685
+699  97.0  94.975266
+
+[700 rows x 2 columns]_stat_total_samples">        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.586398
+4    87.0  87.288984
+..    ...        ...
+695  58.0  58.595006
+696  93.0  94.625094
+697  82.0  88.603770
+698  66.0  63.648685
+699  97.0  94.975266
+
+[700 rows x 2 columns]_stat_total_samples</TD>
+        <TD align="left">10</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
+        <TD align="left">        x          y
+0    24.0  21.549452
+1    50.0  47.464463
+2    15.0  17.218656
+3    38.0  36.58...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
+        <TD align="left"></TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann7 -> n8 [arrowhead=none, style=dashed, color=gray];
+n9 [label="      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    36  41.849864
+..   ..        ...
+295  71  68.545888
+296  46  47.334876
+297  55  54.090637
+298  62  63.297171
+299  47  52.459467
+
+[300 rows x 2 columns]", URL="linear regression_GR0_6      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    36  41.849864
+..   ..        ...
+295  71  68.545888
+296  46  47.334876
+297  55  54.090637
+298  62  63.297171
+299  47  52.459467
+
+[300 rows x 2 columns]", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann8 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="linear regression_GR0_6      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    36  41.849864
+..   ..        ...
+295  71  68.545888
+296  46  47.334876
+297  55  54.090637
+298  62  63.297171
+299  47  52.459467
+
+[300 rows x 2 columns]_stat_total_samples">      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    36  41.849864
+..   ..        ...
+295  71  68.545888
+296  46  47.334876
+297  55  54.090637
+298  62  63.297171
+299  47  52.459467
+
+[300 rows x 2 columns]_stat_total_samples</TD>
+        <TD align="left">9</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
+        <TD align="left">      x          y
+0    77  79.775152
+1    21  23.177279
+2    22  25.609262
+3    20  17.857388
+4    ...</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
+        <TD align="left"></TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann8 -> n9 [arrowhead=none, style=dashed, color=gray];
+n10 [label="Original model.pkl", URL="linear regression_GR0_6Original model.pkl", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann9 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
+        <TD align="left">Original model.pkl</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
+        <TD align="left">model.pkl</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
+        <TD align="left">output</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann9 -> n10 [arrowhead=none, style=dashed, color=gray];
+n11 [label="model.pkl", URL="linear regression_GR0_6model.pkl", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann10 [label=<<TABLE cellpadding="0" border="0">
+    <TR>
+        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
+        <TD align="left">model.pkl</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
+        <TD align="left">/content/drive/MyDrive/2025-2026/Conferences/CAIN/linear regression_6/artifacts_GR0/model.pkl</TD>
+    </TR>
+    <TR>
+        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
+        <TD align="left">input</TD>
+    </TR>
+    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
+ann10 -> n11 [arrowhead=none, style=dashed, color=gray];
+b1 [label="", shape=point, color=gray];
+n2 -> b1 [arrowhead=none, label=wasAssociatedWith, fontsize=10.0, color="#FED37F"];
+b1 -> n1 [fontsize=10.0, color="#FED37F"];
+n3 -> n2 [label=wasInformedBy, fontsize=10.0];
+n4 -> n2 [label=wasInformedBy, fontsize=10.0];
+n5 -> n2 [label=wasInformedBy, fontsize=10.0];
+n6 -> n2 [label=wasInformedBy, fontsize=10.0];
+n7 -> n2 [label=wasInformedBy, fontsize=10.0];
+n6 -> n8 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n6 -> n9 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n10 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
+n2 -> n11 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+b2 [label="", shape=point, color=gray];
+n11 -> b2 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b2 -> n10 [fontsize=10.0];
+}
