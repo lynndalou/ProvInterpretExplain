@@ -6,11 +6,11 @@ n2 [label="context:functional_decomposition_GR0_0", URL="contextfunctional_decom
 ann1 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="functional_decomposition_GR0_0execution_end_time">execution_end_time</TD>
-        <TD align="left">{'value:': 1764164012.7452385, 'dtype': 'float'}</TD>
+        <TD align="left">{'value:': 1764713662.0497227, 'dtype': 'float'}</TD>
     </TR>
     <TR>
         <TD align="left" href="functional_decomposition_GR0_0execution_start_time">execution_start_time</TD>
-        <TD align="left">{'value:': 1764163932.7785966, 'dtype': 'float'}</TD>
+        <TD align="left">{'value:': 1764713658.6609492, 'dtype': 'float'}</TD>
     </TR>
     <TR>
         <TD align="left" href="yProv4MLartifact_uri">yProv4ML:artifact_uri</TD>
@@ -86,113 +86,8 @@ ann6 [label=<<TABLE cellpadding="0" border="0">
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
 ann6 -> n7 [arrowhead=none, style=dashed, color=gray];
-n8 [label="           time       value       trend  seasonality      noise
-0    2003-01-01    8.820262    0.000000     0.000000   8.820262
-1    2003-01-02    2.399855    0.054802     0.344267   2.000786
-2    2003-01-03    5.691726    0.109604     0.688432   4.893690
-3    2003-01-04   12.401265    0.164406     1.032393  11.204466
-4    2003-01-05   10.933047    0.219208     1.376049   9.337790
-...         ...         ...         ...          ...        ...
-7295 2022-12-22  395.556860  399.780792    -1.719296  -2.504636
-7296 2022-12-23  404.984182  399.835594    -1.376049   6.524637
-7297 2022-12-24  393.007700  399.890396    -1.032393  -5.850303
-7298 2022-12-25  401.393451  399.945198    -0.688432   2.136685
-7299 2022-12-26  397.221350  400.000000    -0.344267  -2.434383
-
-[7300 rows x 5 columns]", URL="functional_decomposition_GR0_0           time       value       trend  seasonality      noise
-0    2003-01-01    8.820262    0.000000     0.000000   8.820262
-1    2003-01-02    2.399855    0.054802     0.344267   2.000786
-2    2003-01-03    5.691726    0.109604     0.688432   4.893690
-3    2003-01-04   12.401265    0.164406     1.032393  11.204466
-4    2003-01-05   10.933047    0.219208     1.376049   9.337790
-...         ...         ...         ...          ...        ...
-7295 2022-12-22  395.556860  399.780792    -1.719296  -2.504636
-7296 2022-12-23  404.984182  399.835594    -1.376049   6.524637
-7297 2022-12-24  393.007700  399.890396    -1.032393  -5.850303
-7298 2022-12-25  401.393451  399.945198    -0.688432   2.136685
-7299 2022-12-26  397.221350  400.000000    -0.344267  -2.434383
-
-[7300 rows x 5 columns]", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+n8 [label="Original rolling_mean.csv", URL="functional_decomposition_GR0_0Original rolling_mean.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
 ann7 [label=<<TABLE cellpadding="0" border="0">
-    <TR>
-        <TD align="left" href="functional_decomposition_GR0_0           time       value       trend  seasonality      noise
-0    2003-01-01    8.820262    0.000000     0.000000   8.820262
-1    2003-01-02    2.399855    0.054802     0.344267   2.000786
-2    2003-01-03    5.691726    0.109604     0.688432   4.893690
-3    2003-01-04   12.401265    0.164406     1.032393  11.204466
-4    2003-01-05   10.933047    0.219208     1.376049   9.337790
-...         ...         ...         ...          ...        ...
-7295 2022-12-22  395.556860  399.780792    -1.719296  -2.504636
-7296 2022-12-23  404.984182  399.835594    -1.376049   6.524637
-7297 2022-12-24  393.007700  399.890396    -1.032393  -5.850303
-7298 2022-12-25  401.393451  399.945198    -0.688432   2.136685
-7299 2022-12-26  397.221350  400.000000    -0.344267  -2.434383
-
-[7300 rows x 5 columns]_stat_total_samples">           time       value       trend  seasonality      noise
-0    2003-01-01    8.820262    0.000000     0.000000   8.820262
-1    2003-01-02    2.399855    0.054802     0.344267   2.000786
-2    2003-01-03    5.691726    0.109604     0.688432   4.893690
-3    2003-01-04   12.401265    0.164406     1.032393  11.204466
-4    2003-01-05   10.933047    0.219208     1.376049   9.337790
-...         ...         ...         ...          ...        ...
-7295 2022-12-22  395.556860  399.780792    -1.719296  -2.504636
-7296 2022-12-23  404.984182  399.835594    -1.376049   6.524637
-7297 2022-12-24  393.007700  399.890396    -1.032393  -5.850303
-7298 2022-12-25  401.393451  399.945198    -0.688432   2.136685
-7299 2022-12-26  397.221350  400.000000    -0.344267  -2.434383
-
-[7300 rows x 5 columns]_stat_total_samples</TD>
-        <TD align="left">16</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
-        <TD align="left">           time       value       trend  seasonality      noise
-0    2003-01-01    8.820262    0.000...</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
-        <TD align="left"></TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
-        <TD align="left">input</TD>
-    </TR>
-    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann7 -> n8 [arrowhead=none, style=dashed, color=gray];
-n9 [label="Original rolling_mean", URL="functional_decomposition_GR0_0Original rolling_mean", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann8 [label=<<TABLE cellpadding="0" border="0">
-    <TR>
-        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
-        <TD align="left">Original rolling_mean</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
-        <TD align="left">rolling_mean</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
-        <TD align="left">output</TD>
-    </TR>
-    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann8 -> n9 [arrowhead=none, style=dashed, color=gray];
-n10 [label="rolling_mean", URL="functional_decomposition_GR0_0rolling_mean", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann9 [label=<<TABLE cellpadding="0" border="0">
-    <TR>
-        <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
-        <TD align="left">rolling_mean</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLpath">yProv4ML:path</TD>
-        <TD align="left">/content/functional_decomposition_0/artifacts_GR0/rolling_mean</TD>
-    </TR>
-    <TR>
-        <TD align="left" href="yProv4MLrole">yProv4ML:role</TD>
-        <TD align="left">input</TD>
-    </TR>
-    </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann9 -> n10 [arrowhead=none, style=dashed, color=gray];
-n11 [label="Original rolling_mean.csv", URL="functional_decomposition_GR0_0Original rolling_mean.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann10 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
         <TD align="left">Original rolling_mean.csv</TD>
@@ -206,9 +101,9 @@ ann10 [label=<<TABLE cellpadding="0" border="0">
         <TD align="left">output</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann10 -> n11 [arrowhead=none, style=dashed, color=gray];
-n12 [label="rolling_mean.csv", URL="functional_decomposition_GR0_0rolling_mean.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann11 [label=<<TABLE cellpadding="0" border="0">
+ann7 -> n8 [arrowhead=none, style=dashed, color=gray];
+n9 [label="rolling_mean.csv", URL="functional_decomposition_GR0_0rolling_mean.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann8 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
         <TD align="left">rolling_mean.csv</TD>
@@ -222,9 +117,9 @@ ann11 [label=<<TABLE cellpadding="0" border="0">
         <TD align="left">input</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann11 -> n12 [arrowhead=none, style=dashed, color=gray];
-n13 [label="Original residual.csv", URL="functional_decomposition_GR0_0Original residual.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann12 [label=<<TABLE cellpadding="0" border="0">
+ann8 -> n9 [arrowhead=none, style=dashed, color=gray];
+n10 [label="Original residual.csv", URL="functional_decomposition_GR0_0Original residual.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann9 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
         <TD align="left">Original residual.csv</TD>
@@ -238,9 +133,9 @@ ann12 [label=<<TABLE cellpadding="0" border="0">
         <TD align="left">output</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann12 -> n13 [arrowhead=none, style=dashed, color=gray];
-n14 [label="residual.csv", URL="functional_decomposition_GR0_0residual.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
-ann13 [label=<<TABLE cellpadding="0" border="0">
+ann9 -> n10 [arrowhead=none, style=dashed, color=gray];
+n11 [label="residual.csv", URL="functional_decomposition_GR0_0residual.csv", shape=oval, style=filled, fillcolor="#FFFC87", color="#808080"];
+ann10 [label=<<TABLE cellpadding="0" border="0">
     <TR>
         <TD align="left" href="yProv4MLlabel">yProv4ML:label</TD>
         <TD align="left">residual.csv</TD>
@@ -254,7 +149,7 @@ ann13 [label=<<TABLE cellpadding="0" border="0">
         <TD align="left">input</TD>
     </TR>
     </TABLE>>, shape=note, color=gray, fontcolor=black, fontsize=10];
-ann13 -> n14 [arrowhead=none, style=dashed, color=gray];
+ann10 -> n11 [arrowhead=none, style=dashed, color=gray];
 b1 [label="", shape=point, color=gray];
 n2 -> b1 [arrowhead=none, label=wasAssociatedWith, fontsize=10.0, color="#FED37F"];
 b1 -> n1 [fontsize=10.0, color="#FED37F"];
@@ -263,20 +158,14 @@ n4 -> n2 [label=wasInformedBy, fontsize=10.0];
 n5 -> n2 [label=wasInformedBy, fontsize=10.0];
 n6 -> n2 [label=wasInformedBy, fontsize=10.0];
 n7 -> n2 [label=wasInformedBy, fontsize=10.0];
-n6 -> n8 [label=used, fontsize=10.0, color=red4, fontcolor=red];
-n9 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
-n2 -> n10 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n8 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
+n2 -> n9 [label=used, fontsize=10.0, color=red4, fontcolor=red];
 b2 [label="", shape=point, color=gray];
-n10 -> b2 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
-b2 -> n9 [fontsize=10.0];
-n11 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
-n2 -> n12 [label=used, fontsize=10.0, color=red4, fontcolor=red];
+n9 -> b2 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b2 -> n8 [fontsize=10.0];
+n10 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
+n2 -> n11 [label=used, fontsize=10.0, color=red4, fontcolor=red];
 b3 [label="", shape=point, color=gray];
-n12 -> b3 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
-b3 -> n11 [fontsize=10.0];
-n13 -> n2 [label=wasGeneratedBy, fontsize=10.0, color=darkgreen, fontcolor=darkgreen];
-n2 -> n14 [label=used, fontsize=10.0, color=red4, fontcolor=red];
-b4 [label="", shape=point, color=gray];
-n14 -> b4 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
-b4 -> n13 [fontsize=10.0];
+n11 -> b3 [arrowhead=none, label=wasDerivedFrom, fontsize=10.0];
+b3 -> n10 [fontsize=10.0];
 }
